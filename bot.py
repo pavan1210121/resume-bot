@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler
 from telegram.ext import MessageHandler, filters
 import linghdr
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7331766657:AAGPN0eYnryJ7N3BLCUUJZTEtYMXRsNiC34")
 
 def send_resume(update, context):
     chat_id = update.message.chat_id

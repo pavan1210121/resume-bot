@@ -1,0 +1,7 @@
+services:
+  - type: web  # Defines this as a web service
+    name: your-app-name  # Replace with your app's name
+    env: python  # Specifies the environment as Python
+    python_version: 3.10  # Specifies the Python version to use (you can use 3.9 or other stable versions)
+    buildCommand: pip install -r requirements.txt  # Command to install the dependencies from requirements.txt
+    startCommand: python bot.py  # Command to start your bot

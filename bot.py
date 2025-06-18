@@ -1,6 +1,6 @@
 import os
 from telegram.ext import Updater, CommandHandler
-from telegram import InputFile
+from telegram.ext import MessageHandler, filters
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 

@@ -4,7 +4,7 @@ from telegram import InputFile
 import imghdr  # Corrected import for image header checking
 
 # Make sure the environment variable for BOT_TOKEN is set correctly
-BOT_TOKEN = os.getenv("7331766657:AAGPN0eYnryJ7N3BLCUUJZTEtYMXRsNiC34")  # Use the correct environment variable name
+BOT_TOKEN = os.getenv(")  # Use the correct environment variable name
 
 def send_resume(update, context):
     chat_id = update.message.chat_id

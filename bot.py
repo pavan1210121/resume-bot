@@ -2,6 +2,7 @@ import os
 from telegram.ext import Updater, CommandHandler
 from telegram.ext import MessageHandler, filters
 import linghdr
+import imghdr
 
 BOT_TOKEN = os.getenv("7331766657:AAGPN0eYnryJ7N3BLCUUJZTEtYMXRsNiC34")
 
